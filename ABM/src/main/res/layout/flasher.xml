@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:gravity="center_horizontal"
+	android:layout_gravity="center_horizontal">
+
+	<LinearLayout
+		android:id="@+id/suportinfo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center_horizontal">
+
+		<TextView
+			android:id="@+id/model"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="50sp"
+			android:layout_marginTop="20dp"
+			android:textAlignment="center"
+			android:gravity="center"
+			android:layout_gravity="center"/>
+
+		<TextView
+			android:id="@+id/board"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="36sp"
+			android:layout_marginTop="5dp"
+			android:textAlignment="center"
+			android:gravity="center"
+			android:layout_gravity="center"/>
+
+		<TextView
+			android:id="@+id/name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="22sp"
+			android:layout_marginTop="5dp"
+			android:textAlignment="center"
+			android:gravity="center"
+			android:layout_gravity="center"/>
+
+		<TextView
+			android:id="@+id/flashinfo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="10dp"
+			android:textAlignment="center"
+			android:gravity="center_horizontal"
+			android:textSize="16sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/insuportinfo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center_horizontal">
+
+		<ImageView
+			android:layout_width="96dp"
+			android:layout_height="96dp"
+			android:id="@+id/attn"
+			android:layout_marginTop="20dp"/>
+
+		<TextView
+			android:id="@+id/insuportedinfo"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="10dp"
+			android:textAlignment="center"
+			android:gravity="center_horizontal"
+			android:textSize="16sp"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/buttons"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:gravity="center_horizontal">
+
+		<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/choose"
+			android:id="@+id/chooseBtn"
+			android:layout_gravity="center_horizontal|bottom"
+			android:layout_marginTop="20dp"/>
+
+		<Button
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/backup"
+			android:id="@+id/backupBtn"
+			android:layout_gravity="center_horizontal|bottom"
+			android:layout_marginTop="10dp"/>
+
+	</LinearLayout>
+
+</LinearLayout>
+

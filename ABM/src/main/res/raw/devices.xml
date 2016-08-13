@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+File contain partitions layout for flashing kernel & recovery
+-->
+<devices>
+	<!-- Desire 816 a5 (710C) added by bigsupersquid -->
+	<device>
+		<model>710C</model>
+		<kernel>/dev/block/mmcblk0p40</kernel>
+		<recovery>/dev/block/mmcblk0p41</recovery>
+		<cache>/dev/block/mmcblk0p42</cache> 
+	</device>
+	<device>
+        <model>C2005</model>
+        <kernel>/dev/block/mmcblk0p17</kernel>
+        <recovery>/dev/block/mmcblk0p23</recovery>
+        <cache>/dev/block/mmcblk0p26</cache>
+    </device>
+	<device>
+        <model>GT-I9001,Galaxy S Plus,GT-I8150,SGH-T679</model> <!-- GALAXY S PLUS,GALAXY W,Galaxy Exhibit -->
+        <kernel>/dev/block/mmcblk0p8</kernel>
+        <recovery>/dev/block/mmcblk0p13</recovery>
+        <cache>/dev/block/mmcblk0p16</cache>
+    </device>
+    <device>
+        <model>GT-I9100,GT-I9100G,SGH-I777</model> <!-- GALAXY S II -->
+        <kernel>/dev/block/mmcblk0p5</kernel>
+        <recovery>/dev/block/mmcblk0p6</recovery>
+        <cache>/dev/block/mmcblk0p7</cache>
+    </device>
+    <device>
+        <model>GT-I9300</model> <!-- GALAXY S III -->
+        <kernel>/dev/block/mmcblk0p5</kernel>
+        <recovery>/dev/block/mmcblk0p6</recovery>
+        <cache>/dev/block/mmcblk0p8</cache>
+    </device>
+    <!-- GALAXY S IV,NEXUS 4,NEXUS 5,XPERIA Z,Samsung Galaxy S4 SGH-M919,GALAXY S4 Mini -->
+    <device>
+        <model>GT-I9505,Nexus 4,Nexus 5,LG-E960,C6603,SGH-M919,GT-I9190,GT-I9195</model>
+        <kernel>/dev/block/platform/msm_sdcc.1/by-name/boot</kernel>
+        <recovery>/dev/block/platform/msm_sdcc.1/by-name/recovery</recovery>
+        <cache>/dev/block/platform/msm_sdcc.1/by-name/cache</cache>
+    </device>
+    <device>
+        <model>Galaxy Nexus,GT-I9250</model> <!-- GALAXY NEXUS -->
+        <kernel>/dev/block/platform/omap/omap_hsmmc.0/by-name/boot</kernel>
+        <recovery>/dev/block/platform/omap/omap_hsmmc.0/by-name/recovery</recovery>
+        <cache>/dev/block/platform/omap/omap_hsmmc.0/by-name/cache</cache>
+    </device>
+    <device>
+        <model>HTC One X,S720e</model> <!-- HTC ONE X -->
+        <kernel>/dev/block/mmcblk0p4</kernel>
+        <recovery>/dev/block/mmcblk0p5</recovery>
+        <cache>/dev/block/mmcblk0p13</cache>
+    </device>
+    <!-- new added 1-->
+    <device>
+        <model>GT-I8190</model> <!-- GALAXY S III mini -->
+        <kernel>/dev/block/mmcblk0p20</kernel>
+        <recovery>/dev/block/mmcblk0p21</recovery>
+        <cache>/dev/block/mmcblk0p23</cache>
+    </device>
+    <!-- Samsung Galaxy Tab 7.7 (3G) GT-P6800, GT-P6810 -->
+    <device>
+        <model>GT-P6800,GT-P6810</model>
+        <kernel>/dev/block/mmcblk0p5</kernel>
+        <recovery>/dev/block/mmcblk0p6</recovery>
+        <cache>/dev/block/mmcblk0p7</cache>
+    </device>
+    <!-- Samsung Galaxy S III LTE GT-I9305 -->
+    <device>
+        <model>GT-I9305</model>
+        <kernel>/dev/block/mmcblk0p8</kernel>
+        <recovery>/dev/block/mmcblk0p9</recovery>
+        <cache>/dev/block/mmcblk0p12</cache>
+    </device>
+    <!-- Samsung Galaxy S III SGH-T999,SGH-I747 -->
+    <device>
+        <model>SGH-T999,SGH-I747,SGH-I747,SGH-I747M,SPH-L710,SCH-I535</model>
+        <kernel>/dev/block/mmcblk0p7</kernel>
+        <recovery>/dev/block/mmcblk0p18</recovery>
+        <cache>/dev/block/mmcblk0p17</cache>
+    </device>
+    <!-- Samsung Galaxy Tab 10.1 -->
+    <device>
+        <model>GT-P7500,SCH-I905,GT-P7510,GT-P7100,GT-P7511</model>
+        <kernel>/dev/block/mmcblk0p3</kernel>
+        <recovery>/dev/block/mmcblk0p2</recovery>
+        <cache>/dev/block/mmcblk0p5</cache>
+    </device>
+    <device>
+        <model>LG-P970</model> <!-- LG OPTIMUS BLACK P970 -->
+        <kernel>/dev/block/mmcblk0p3</kernel>
+        <recovery>/dev/block/mmcblk0p4</recovery>
+        <cache>/dev/block/mmcblk0p10</cache>
+    </device>
+    <!-- New devices added by rodero95 -->
+    <device>
+        <model>GT-I9003,GT-I9003L,galaxysl</model> <!-- Samsung Galaxy SL i9003 and i9003L -->
+        <kernel>/dev/block/mtdblock0</kernel>
+        <recovery>/dev/block/mtdblock1</recovery>
+        <cache>/dev/block/mmcblk0p2</cache>
+    </device>
+    <device>
+        <model>u8815</model> <!-- Huawei Ascend G300 -->
+        <kernel>/dev/block/mmcblk0p15</kernel>
+        <recovery>/dev/block/mmcblk0p16</recovery>
+        <cache>/dev/block/mmcblk0p6</cache>
+    </device>
+    <!-- New devices added by rodero95 -->
+    <!--2.1.3-->
+    <device>
+        <model>MT27,MT27i,MT27a</model> <!-- Sony Xperia Sola pepper -->
+        <kernel>/dev/block/mmcblk0p9</kernel>
+        <recovery>/dev/block/mmcblk0p10</recovery>
+        <cache>/dev/block/mmcblk0p12</cache>
+    </device>
+    <!--2.1.3-->
+    <!-- xolo_us9230e1 ???????-->
+    <device>
+        <model>T1000</model>
+        <kernel>/dev/block/platform/sdhci-tegra.3/by-name/LNX</kernel>
+        <recovery>/dev/block/platform/sdhci-tegra.3/by-name/SOS</recovery>
+        <cache>/dev/block/platform/sdhci-tegra.3/by-name/CAC</cache>
+    </device>
+    <device>
+        <model>ST25,ST25i,ST25a,Xperia U,kumquat</model> <!-- Sony Xperia U kumquat -->
+        <kernel>/dev/block/mmcblk0p9</kernel>
+        <recovery>/dev/block/mmcblk0p9</recovery>
+        <cache>/dev/block/mmcblk0p12</cache>
+    </device>
+    <!-- New devices added by Rizal Lovins -->
+	<device>
+        <model>LT25i,LT29i,LT30a,LT30p,C5302,C5303</model> <!-- Sony Xperia T-TL-TX-V-SP -->
+        <kernel>/dev/block/mmcblk0p4</kernel>
+        <recovery>/dev/block/mmcblk0p4</recovery>
+        <cache>/dev/block/mmcblk0p12</cache>
+    </device>
+
+    <!-- Galaxy Grand Duos GT-i9082 added by Triprex -->
+    <device>
+        <model>GT-i9082</model>
+        <kernel>/dev/block/mmcblk0p5</kernel>
+        <recovery>/dev/block/mmcblk0p6</recovery>
+        <cache>/dev/block/mmcblk0p18</cache>
+    </device>
+</devices>
