@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- App About -->
+	<string name="app_name">Android Boot Manager</string>
+    <string name="settings">Settings</string>
+	<string name="about">About</string>
+	<string name="version">Version</string>
+	<string name="credits">Credits</string>
+	<string name="thanks">Thanks</string>
+	<string name="about_version">Version 2.1.2</string>
+	<string name="about_build_date">Build date 06/04/2016</string>
+	<string name="about_credits">Created by Atef Mostefa Khelifa\n(aToxyd) @xda-developers\n\nEmail: atoxyd@gmail.com</string>
+	<string name="about_thanks">Thanks to:\n\n
+		- xiaolu @ xda-developers, the original author of boot.img tool\n
+		- Modding.MyMind, for his heavily modification of boot.img tool.\n
+		- bigsupersquid @ xda-developers, for his support.
+	</string>
+	<string name="about_Notes">\n\n
+		Loocks like you don\'t have any working project yet.\n
+		Hit the + button and choose Unpack Image to Project Folder.
+	</string>
+	
+	<!--<string name="first_run_title">First check for root</string>-->
+    <string name="first_run_message">Please wait…\nGet environement ready…</string>
+	<string name="get_data_ready_ok">All the environement is ready.</string>
+    <string name="su_failed">Root access failed.</string>
+    
+    <!-- Tools -->
+    <string name="ok">Ok</string>
+    <string name="yes">Yes</string>
+	<string name="cancel">Cancel</string>
+	<string name="wait">Please wait…</string>
+	<string name="system_will_reboot">At the end, the system will reboot. Continue?</string>
+
+    <string name="choose">Choose %s</string>
+	<string name="backup">Backup</string>
+    <string name="unsupported_info">Your device is not supported yet, this is note a bug ,you can add Kernel/Recovery/Cache block device to devices.xml in ABK derectory in your SDcard.</string>
+    <string name="flash_info">Will be flashed on partition\n%s\n as</string>
+    <string name="dir_parent">Parent Directory</string>
+    <string name="dir">Directory</string>
+    <string name="bkexit">Press again to exit</string>
+    <string name="kernel">Kernel</string>
+    <string name="recovery">Recovery</string>
+	<string name="FlashBackupKernel">Flash/Backup Kernel</string>
+	<string name="FlashBackupRecovery">Flash/Backup Recovery</string>
+
+    <string name="verify">Verifying…</string>
+    <string name="bad_zip">This zip file doesn\'t contain any img file!</string>
+	<string name="clear_search_sug">Clear Search Suggestions</string>
+	<string name="clear_search_sug_ok">Search suggestions cleared with succed</string>
+	<string name="search">Search</string>
+	<string name="search">Search</string>
+	<string name="shouldSave">File changed. Save it?</string>
+	<string name="shouldSaveIntent">You\'re opening another file. Save this one?</string>
+	<string name="save">Save</string>
+	<string name="saved_ok">Saved successfully!</string>
+    <string name="close">Close</string>
+    
+	<!-- Search stuff -->
+	<string name="searchLabel">TextEdit</string>
+	<string name="searchHint">Search</string>
+	
+	   
+	<!-- App Settings -->
+    <string name="pt_use_dark_theme">Use dark theme</string>
+    <string name="ps_use_dark_theme">If checked, I will use a dark theme</string>
+    
+    
+	<string name="exist_file">%s already exist !</string>
+	<string name="err_file">Error ! Can\'t create folder %s</string>
+	<string name="backup_name">Backup name</string>
+    <string name="backup_ok">Backup operation succeeded.</string>
+    <string name="backup_nok">Error ! Backup operation failed.</string>
+	
+	<!-- UnpackRepack -->
+	<string name="unpack">Unpack Image to Project Folder</string>
+	<string name="repack">Repack Project Folder to Image</string>
+	<string name="unpacking">Unpacking %s ?</string>
+	<string name="repacking">Repacking %s ?</string>
+	<string name="del_unpacked_dir">Unpacked Project Folder %s already exist.\nDo you whant to delete it?</string>
+	<string name="del_project_dir">Realy you whant to delete %s project?</string>
+	<string name="del_unpacked_dir_ok">Unpacked Project Folder deleted with succed</string>
+	<string name="del_project_dir_ok">%s Project Folder deleted with succed</string>
+	<string name="copy_to_clipboard">Copy into Clipboard</string>
+	<string name="copy_to_clipboard_ok">Copyed into Clipboard with succed</string>
+	
+	<string-array name="repackimg">
+		<item name="repack_old_ramdisk">Repack with the original ramdisk</item>
+		<item name="repack_old_ramdisk">Repack with a new ramdisk changed</item>
+	</string-array>
+	
+	
+	
+
+</resources>

@@ -1,0 +1,38 @@
+<resources>
+
+    <style name="pc_pref_cat">
+        <item name="android:background">@color/gray</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">6dip</item>
+    </style>
+
+    <style name="action_bar_style" parent="android:style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/action_bar_title_text_style</item>
+        <item name="android:background">@color/blue</item>
+    </style>
+	
+    <style name="action_bar_title_text_style" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/white</item>
+    </style>
+	
+	
+	<style name="fab_MenuLabelsStyle">
+        <item name="android:background">@drawable/fab_label_background_ligth</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+	
+    <style name="fabMenuButtonsStyle">
+        <item name="fab_showAnimation">@anim/fab_jump_from_down</item>
+        <item name="fab_hideAnimation">@anim/fab_jump_to_down</item>
+        <item name="fab_shadowColor">#444</item>
+        <item name="fab_colorNormal">@color/blue</item>
+        <item name="fab_colorPressed">@color/blue_ligth</item>
+    </style>
+	
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item 
+		android:id="@+id/search" 
+		android:title="@string/search" 
+		android:showAsAction="never" />
+	
+	<item 
+		android:id="@+id/clear_search_sug" 
+		android:title="@string/clear_search_sug" 
+		android:showAsAction="never" />
+	
+    <item 
+		android:id="@+id/save" 
+		android:title="@string/save" 
+		android:showAsAction="never" />
+	
+	<item 
+		android:id="@+id/close" 
+		android:title="@string/close" 
+		android:showAsAction="never" />
+</menu>

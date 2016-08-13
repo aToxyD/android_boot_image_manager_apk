@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="cat_gray">#ff3b3b3b</color>
+    <color name="light_gray">#ff4d4d4d</color>
+    <color name="light_gray2">#ffb0b0b0</color>
+    <color name="gray">#ff333333</color>
+    <color name="blue">#ff0099cc</color>
+	<color name="blue_ligth">#92BBCA</color>
+    <color name="blue_dark">#ff224687</color>
+    <color name="white">#ffffffff</color>
+    <color name="black">#000000</color>
+    <color name="red">#ffff0000</color>
+    <color name="hover">#409f9f9f</color>
+
+</resources>

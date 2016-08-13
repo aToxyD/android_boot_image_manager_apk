@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme_Dark" parent="android:Theme.Holo">
+        <item name="android:listSeparatorTextViewStyle">@style/pc_pref_cat</item>
+        <item name="android:actionBarStyle">@style/action_bar_style</item>
+        <item name="android:windowBackground">@drawable/background_holo_dark</item>
+    </style>
+
+    <style name="Theme_Light" parent="android:Theme.Holo.Light">
+        <item name="android:listSeparatorTextViewStyle">@style/pc_pref_cat</item>
+        <item name="android:actionBarStyle">@style/action_bar_style</item>
+        <item name="android:windowBackground">@drawable/background_holo_light</item>
+    </style>
+	
+	<style name="fab_Theme_Dark" parent="fab_MenuLabelsStyle">
+		<item name="android:background">@drawable/fab_label_background_dark</item>
+        <item name="android:textColor">#FFFFFF</item>
+	</style>
+	
+	<style name="fab_Theme_ligth" parent="fab_MenuLabelsStyle">
+		<item name="android:background">@drawable/fab_label_background_ligth</item>
+        <item name="android:textColor">#000000</item>
+	</style>
+
+</resources>

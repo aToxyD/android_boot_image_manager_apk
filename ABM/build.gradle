@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.1"
+
+    defaultConfig {
+        applicationId "dz.atoxyd.ABM"
+        minSdkVersion 14
+        targetSdkVersion 19
+        versionCode 2012
+        versionName "2.1.2"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            debuggable false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        
+    }
+}
+
+dependencies {
+	compile 'com.github.clans:fab:1.6.2@aar'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
